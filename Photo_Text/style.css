@@ -1,0 +1,18 @@
+body{
+    background-color: gray;
+}
+.Text{
+    color: transparent;
+    font-size: 150px;
+    font-weight: bold;
+    background : url(thac_nuoc.webp) no-repeat;
+    background-position: center;
+    -webkit-background-clip: text;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
