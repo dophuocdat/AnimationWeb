@@ -24,3 +24,21 @@ body{
     }
     
 }
+
+/* loader 2*/
+ .Loader2{
+    border: 9px solid gray;
+    border-top-color:blue;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+   animation:  spin .7s infinite linear;
+
+ }
+
+ @keyframes spin {
+    to{
+        transform: rotate(360deg);
+    }
+    
+ }
