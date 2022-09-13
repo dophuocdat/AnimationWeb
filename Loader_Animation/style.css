@@ -1,6 +1,13 @@
 body{
     background-color: black;
 }
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .Loader {
     width: 4rem;
     height: 4rem;
