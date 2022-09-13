@@ -1,0 +1,41 @@
+body{
+  background-color:#434343;
+}
+
+label {
+  display: block;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+input {
+  position: absolute;
+  transition: scale(0);
+}
+
+input:checked ~.checkbox {
+  transform: rotate(45deg);
+  width: 20px;
+  margin-left: 16px;
+  border-color: #24c78e;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-radius: 0;
+}
+input[type="checkbox"]{
+  appearance: none;
+}
+
+.checkbox {
+  display: block;
+  width: inherit;
+  height: inherit;
+  border: 3px solid #d01818;
+  border-radius: 6px;
+  transition: all 0.37s;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
