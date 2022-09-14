@@ -1,44 +1,42 @@
-body{
-    background-color: black;
+body {
+  background-color: black;
 }
 
-.center{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .Loader {
-    width: 4rem;
-    height: 4rem;
-    border-radius: 50%;
-    box-sizing: border-box;
-    border-top: 8px solid #fff;
-    border-left: 8px solid #fff;
-    border-right: 8px solid #ff00;
-    animation: loader .7s infinite linear;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border-top: 8px solid #fff;
+  border-left: 8px solid #fff;
+  border-right: 8px solid #ff00;
+  animation: loader 0.7s infinite linear;
 }
 @keyframes loader {
-    to{
-        transform: rotate(360deg);
-    }
-    
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /* loader 2*/
- .Loader2{
-    border: 9px solid gray;
-    border-top-color:blue;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-   animation:  spin .7s infinite linear;
+.Loader2 {
+  border: 9px solid gray;
+  border-top-color: blue;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  animation: spin 0.7s infinite linear;
+  /*infinite: khong gioi han; linear: xoay toc do deu nhau */
+}
 
- }
-
- @keyframes spin {
-    to{
-        transform: rotate(360deg);
-    }
-    
- }
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
