@@ -1,0 +1,11 @@
+img{
+    width:150px;
+    height:150px;
+    -webkit-box-reflect: below 0 linear-gradient(rgba( 0,0,0,0.5), rgba( 0,0,0,1));
+}
+.center{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
