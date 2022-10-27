@@ -1,0 +1,31 @@
+body {
+  background-color: #333;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.text h1 {
+  color: #fff;
+  font-family: monospace;
+  letter-spacing: 7px;
+  white-space: nowrap; /*dam bao van ban tren 1 dong*/
+  overflow: hidden; /*an het van ban nam ngoai vung chua van ban*/
+  border-right: 5px solid orange;
+  animation: typing 1.5s steps(13) 1, caret 0.5s steps(2) infinite; /*step nhay qua buoc thu n*/
+}
+@keyframes caret {
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: orange;
+  }
+}
+@keyframes typing {
+  from {
+    width: 0; /*nho vao overflow : hidden  phu thuoc vao width*/
+  }
+  to {
+    width: 100%;
+  }
+}
